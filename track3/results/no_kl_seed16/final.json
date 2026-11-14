@@ -1,0 +1,3311 @@
+{
+  "metrics": {
+    "count": 220,
+    "accuracy": 0.2318181818181818,
+    "format_rate": 1.0,
+    "numbers_rate": 0.9727272727272728,
+    "mean_tokens": 14.695454545454545
+  },
+  "rows": [
+    {
+      "id": "final_test-0000",
+      "numbers": [
+        2,
+        10,
+        11
+      ],
+      "target": 31,
+      "response": "<answer>10 + 11 + 2</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0001",
+      "numbers": [
+        2,
+        5,
+        8
+      ],
+      "target": 21,
+      "response": "<answer>2 + 5 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0002",
+      "numbers": [
+        4,
+        9,
+        12
+      ],
+      "target": 24,
+      "response": "<answer>4 + 9 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0003",
+      "numbers": [
+        3,
+        5,
+        7
+      ],
+      "target": 8,
+      "response": "<answer>3 + 5 - 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0004",
+      "numbers": [
+        4,
+        6,
+        8
+      ],
+      "target": 32,
+      "response": "<answer>4 * 8 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0005",
+      "numbers": [
+        4,
+        5,
+        7
+      ],
+      "target": 33,
+      "response": "<answer>4 * 5 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0006",
+      "numbers": [
+        4,
+        6,
+        8
+      ],
+      "target": 38,
+      "response": "<answer>4 * 6 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0007",
+      "numbers": [
+        3,
+        5,
+        8
+      ],
+      "target": 29,
+      "response": "<answer>3 + 5 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0008",
+      "numbers": [
+        4,
+        7,
+        12
+      ],
+      "target": 41,
+      "response": "<answer>4 * 7 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0009",
+      "numbers": [
+        2,
+        9,
+        12
+      ],
+      "target": 33,
+      "response": "<answer>2 + 9 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0010",
+      "numbers": [
+        2,
+        8,
+        11
+      ],
+      "target": 21,
+      "response": "<answer>2 + 8 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0011",
+      "numbers": [
+        3,
+        5,
+        9
+      ],
+      "target": 6,
+      "response": "<answer>3 + 5 - 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0012",
+      "numbers": [
+        5,
+        9,
+        10
+      ],
+      "target": 55,
+      "response": "<answer>5 * 9 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0013",
+      "numbers": [
+        3,
+        4,
+        11
+      ],
+      "target": 45,
+      "response": "<answer>3 * 4 * 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0014",
+      "numbers": [
+        2,
+        3,
+        10
+      ],
+      "target": 36,
+      "response": "<answer>2 + 3 + 10 * 1</answer>",
+      "tokens": 18,
+      "format_ok": true,
+      "numbers_ok": false,
+      "correct": false,
+      "reason": "numbers"
+    },
+    {
+      "id": "final_test-0015",
+      "numbers": [
+        4,
+        5,
+        8
+      ],
+      "target": 27,
+      "response": "<answer>4 + 5 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0016",
+      "numbers": [
+        2,
+        5,
+        9
+      ],
+      "target": 28,
+      "response": "<answer>2 + 5 * 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0017",
+      "numbers": [
+        2,
+        3,
+        8
+      ],
+      "target": 30,
+      "response": "<answer>2 + 3 + 8 * 5</answer>",
+      "tokens": 17,
+      "format_ok": true,
+      "numbers_ok": false,
+      "correct": false,
+      "reason": "numbers"
+    },
+    {
+      "id": "final_test-0018",
+      "numbers": [
+        4,
+        7,
+        10
+      ],
+      "target": 47,
+      "response": "<answer>4 * 7 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0019",
+      "numbers": [
+        3,
+        8,
+        12
+      ],
+      "target": 44,
+      "response": "<answer>3 * 8 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0020",
+      "numbers": [
+        5,
+        7,
+        10
+      ],
+      "target": 43,
+      "response": "<answer>5 * 7 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0021",
+      "numbers": [
+        2,
+        8,
+        11
+      ],
+      "target": 5,
+      "response": "<answer>2 + 8 - 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0022",
+      "numbers": [
+        2,
+        7,
+        11
+      ],
+      "target": 25,
+      "response": "<answer>2 + 7 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0023",
+      "numbers": [
+        2,
+        3,
+        8
+      ],
+      "target": 19,
+      "response": "<answer>2 + 8 + 3</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0024",
+      "numbers": [
+        2,
+        9,
+        12
+      ],
+      "target": 42,
+      "response": "<answer>2 + 9 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0025",
+      "numbers": [
+        2,
+        6,
+        8
+      ],
+      "target": 20,
+      "response": "<answer>2 + 6 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0026",
+      "numbers": [
+        2,
+        7,
+        11
+      ],
+      "target": 15,
+      "response": "<answer>2 + 7 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0027",
+      "numbers": [
+        4,
+        10,
+        11
+      ],
+      "target": 29,
+      "response": "<answer>10 + 11 + 4</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0028",
+      "numbers": [
+        2,
+        3,
+        6
+      ],
+      "target": 18,
+      "response": "<answer>2 + 3 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0029",
+      "numbers": [
+        5,
+        8,
+        10
+      ],
+      "target": 58,
+      "response": "<answer>5 * 8 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0030",
+      "numbers": [
+        2,
+        3,
+        7
+      ],
+      "target": 27,
+      "response": "<answer>2 + 3 * 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0031",
+      "numbers": [
+        3,
+        5,
+        8
+      ],
+      "target": 16,
+      "response": "<answer>3 + 5 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0032",
+      "numbers": [
+        6,
+        7,
+        12
+      ],
+      "target": 30,
+      "response": "<answer>6 + 7 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0033",
+      "numbers": [
+        5,
+        6,
+        10
+      ],
+      "target": 55,
+      "response": "<answer>5 * 10 + 6</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0034",
+      "numbers": [
+        5,
+        9,
+        11
+      ],
+      "target": 25,
+      "response": "<answer>5 + 9 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0035",
+      "numbers": [
+        4,
+        5,
+        10
+      ],
+      "target": 30,
+      "response": "<answer>4 + 5 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0036",
+      "numbers": [
+        6,
+        7,
+        12
+      ],
+      "target": 54,
+      "response": "<answer>6 * 7 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0037",
+      "numbers": [
+        3,
+        4,
+        12
+      ],
+      "target": 32,
+      "response": "<answer>3 * 4 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0038",
+      "numbers": [
+        5,
+        6,
+        12
+      ],
+      "target": 23,
+      "response": "<answer>5 + 6 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0039",
+      "numbers": [
+        2,
+        5,
+        10
+      ],
+      "target": 20,
+      "response": "<answer>2 + 5 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0040",
+      "numbers": [
+        2,
+        5,
+        8
+      ],
+      "target": 50,
+      "response": "<answer>2 * 5 * 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0041",
+      "numbers": [
+        2,
+        9,
+        11
+      ],
+      "target": 13,
+      "response": "<answer>2 + 9 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0042",
+      "numbers": [
+        2,
+        8,
+        10
+      ],
+      "target": 26,
+      "response": "<answer>2 + 8 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0043",
+      "numbers": [
+        3,
+        8,
+        9
+      ],
+      "target": 33,
+      "response": "<answer>3 + 8 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0044",
+      "numbers": [
+        4,
+        5,
+        6
+      ],
+      "target": 34,
+      "response": "<answer>4 * 5 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0045",
+      "numbers": [
+        2,
+        3,
+        5
+      ],
+      "target": 7,
+      "response": "<answer>2 + 3 + 5</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0046",
+      "numbers": [
+        4,
+        7,
+        9
+      ],
+      "target": 29,
+      "response": "<answer>4 + 7 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0047",
+      "numbers": [
+        4,
+        7,
+        8
+      ],
+      "target": 25,
+      "response": "<answer>4 + 7 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0048",
+      "numbers": [
+        3,
+        11,
+        12
+      ],
+      "target": 21,
+      "response": "<answer>3 + 11 + 12</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0049",
+      "numbers": [
+        4,
+        7,
+        10
+      ],
+      "target": 33,
+      "response": "<answer>4 + 7 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0050",
+      "numbers": [
+        2,
+        10,
+        11
+      ],
+      "target": 23,
+      "response": "<answer>10 + 2 + 11</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0051",
+      "numbers": [
+        2,
+        3,
+        9
+      ],
+      "target": 33,
+      "response": "<answer>2 + 3 + 9 + 3 + 2</answer>",
+      "tokens": 20,
+      "format_ok": true,
+      "numbers_ok": false,
+      "correct": false,
+      "reason": "numbers"
+    },
+    {
+      "id": "final_test-0052",
+      "numbers": [
+        4,
+        9,
+        11
+      ],
+      "target": 35,
+      "response": "<answer>4 + 9 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0053",
+      "numbers": [
+        3,
+        4,
+        11
+      ],
+      "target": 47,
+      "response": "<answer>3 * 4 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0054",
+      "numbers": [
+        2,
+        9,
+        12
+      ],
+      "target": 6,
+      "response": "<answer>2 + 9 - 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0055",
+      "numbers": [
+        3,
+        4,
+        10
+      ],
+      "target": 42,
+      "response": "<answer>3 * 4 * 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0056",
+      "numbers": [
+        2,
+        6,
+        7
+      ],
+      "target": 40,
+      "response": "<answer>2 * 6 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0057",
+      "numbers": [
+        5,
+        6,
+        11
+      ],
+      "target": 41,
+      "response": "<answer>5 + 6 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0058",
+      "numbers": [
+        2,
+        4,
+        6
+      ],
+      "target": 32,
+      "response": "<answer>2 * 4 * 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0059",
+      "numbers": [
+        4,
+        5,
+        7
+      ],
+      "target": 48,
+      "response": "<answer>4 * 5 * 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0060",
+      "numbers": [
+        3,
+        10,
+        12
+      ],
+      "target": 46,
+      "response": "<answer>3 * 10 + 12</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0061",
+      "numbers": [
+        2,
+        9,
+        11
+      ],
+      "target": 29,
+      "response": "<answer>2 + 9 * 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0062",
+      "numbers": [
+        6,
+        9,
+        11
+      ],
+      "target": 43,
+      "response": "<answer>6 + 9 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0063",
+      "numbers": [
+        6,
+        9,
+        12
+      ],
+      "target": 42,
+      "response": "<answer>6 * 9 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0064",
+      "numbers": [
+        2,
+        10,
+        11
+      ],
+      "target": 42,
+      "response": "<answer>10 + 11 + 2</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0065",
+      "numbers": [
+        3,
+        6,
+        9
+      ],
+      "target": 18,
+      "response": "<answer>3 + 6 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0066",
+      "numbers": [
+        3,
+        7,
+        9
+      ],
+      "target": 34,
+      "response": "<answer>3 * 7 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0067",
+      "numbers": [
+        2,
+        4,
+        8
+      ],
+      "target": 20,
+      "response": "<answer>2 + 4 * 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0068",
+      "numbers": [
+        2,
+        3,
+        9
+      ],
+      "target": 14,
+      "response": "<answer>2 + 3 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0069",
+      "numbers": [
+        2,
+        8,
+        9
+      ],
+      "target": 34,
+      "response": "<answer>2 + 8 * 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0070",
+      "numbers": [
+        2,
+        5,
+        6
+      ],
+      "target": 17,
+      "response": "<answer>2 + 5 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0071",
+      "numbers": [
+        5,
+        6,
+        12
+      ],
+      "target": 18,
+      "response": "<answer>5 + 6 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0072",
+      "numbers": [
+        2,
+        3,
+        11
+      ],
+      "target": 17,
+      "response": "<answer>11 + 2 + 3</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0073",
+      "numbers": [
+        6,
+        7,
+        8
+      ],
+      "target": 21,
+      "response": "<answer>6 + 7 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0074",
+      "numbers": [
+        3,
+        4,
+        5
+      ],
+      "target": 23,
+      "response": "<answer>3 * 5 + 4</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0075",
+      "numbers": [
+        3,
+        6,
+        7
+      ],
+      "target": 60,
+      "response": "<answer>3 * 6 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0076",
+      "numbers": [
+        2,
+        4,
+        8
+      ],
+      "target": 48,
+      "response": "<answer>2 * 4 * 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0077",
+      "numbers": [
+        3,
+        4,
+        10
+      ],
+      "target": 43,
+      "response": "<answer>3 * 4 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0078",
+      "numbers": [
+        2,
+        9,
+        11
+      ],
+      "target": 31,
+      "response": "<answer>2 + 9 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0079",
+      "numbers": [
+        2,
+        3,
+        7
+      ],
+      "target": 20,
+      "response": "<answer>2 + 3 * 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0080",
+      "numbers": [
+        2,
+        3,
+        11
+      ],
+      "target": 16,
+      "response": "<answer>2 + 3 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0081",
+      "numbers": [
+        4,
+        6,
+        10
+      ],
+      "target": 56,
+      "response": "<answer>4 * 6 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0082",
+      "numbers": [
+        2,
+        3,
+        12
+      ],
+      "target": 60,
+      "response": "<answer>12 + 2 + 3</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0083",
+      "numbers": [
+        3,
+        6,
+        8
+      ],
+      "target": 42,
+      "response": "<answer>3 * 6 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0084",
+      "numbers": [
+        2,
+        8,
+        10
+      ],
+      "target": 36,
+      "response": "<answer>2 + 8 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0085",
+      "numbers": [
+        5,
+        6,
+        8
+      ],
+      "target": 46,
+      "response": "<answer>5 * 6 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0086",
+      "numbers": [
+        2,
+        8,
+        12
+      ],
+      "target": 22,
+      "response": "<answer>2 + 8 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0087",
+      "numbers": [
+        4,
+        9,
+        11
+      ],
+      "target": 24,
+      "response": "<answer>4 + 9 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0088",
+      "numbers": [
+        7,
+        9,
+        10
+      ],
+      "target": 26,
+      "response": "<answer>7 + 9 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0089",
+      "numbers": [
+        3,
+        8,
+        9
+      ],
+      "target": 15,
+      "response": "<answer>3 + 8 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0090",
+      "numbers": [
+        2,
+        5,
+        9
+      ],
+      "target": 23,
+      "response": "<answer>2 + 5 * 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0091",
+      "numbers": [
+        5,
+        6,
+        9
+      ],
+      "target": 39,
+      "response": "<answer>5 * 6 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0092",
+      "numbers": [
+        2,
+        6,
+        8
+      ],
+      "target": 28,
+      "response": "<answer>2 + 6 * 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0093",
+      "numbers": [
+        3,
+        8,
+        10
+      ],
+      "target": 54,
+      "response": "<answer>3 * 8 * 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0094",
+      "numbers": [
+        2,
+        5,
+        6
+      ],
+      "target": 42,
+      "response": "<answer>2 * 5 * 6 + 4</answer>",
+      "tokens": 17,
+      "format_ok": true,
+      "numbers_ok": false,
+      "correct": false,
+      "reason": "numbers"
+    },
+    {
+      "id": "final_test-0095",
+      "numbers": [
+        3,
+        6,
+        7
+      ],
+      "target": 25,
+      "response": "<answer>3 + 6 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0096",
+      "numbers": [
+        2,
+        7,
+        8
+      ],
+      "target": 22,
+      "response": "<answer>2 + 7 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0097",
+      "numbers": [
+        4,
+        10,
+        12
+      ],
+      "target": 52,
+      "response": "<answer>4 * 10 + 12</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0098",
+      "numbers": [
+        6,
+        9,
+        10
+      ],
+      "target": 25,
+      "response": "<answer>6 + 9 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0099",
+      "numbers": [
+        2,
+        4,
+        10
+      ],
+      "target": 16,
+      "response": "<answer>2 + 4 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0100",
+      "numbers": [
+        3,
+        5,
+        12
+      ],
+      "target": 31,
+      "response": "<answer>3 + 5 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0101",
+      "numbers": [
+        3,
+        6,
+        7
+      ],
+      "target": 16,
+      "response": "<answer>3 + 6 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0102",
+      "numbers": [
+        4,
+        7,
+        9
+      ],
+      "target": 19,
+      "response": "<answer>4 + 7 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0103",
+      "numbers": [
+        6,
+        7,
+        9
+      ],
+      "target": 33,
+      "response": "<answer>6 + 7 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0104",
+      "numbers": [
+        3,
+        5,
+        8
+      ],
+      "target": 23,
+      "response": "<answer>3 + 5 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0105",
+      "numbers": [
+        2,
+        4,
+        9
+      ],
+      "target": 17,
+      "response": "<answer>2 + 4 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0106",
+      "numbers": [
+        2,
+        3,
+        5
+      ],
+      "target": 17,
+      "response": "<answer>2 + 5 + 3</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0107",
+      "numbers": [
+        2,
+        5,
+        9
+      ],
+      "target": 55,
+      "response": "<answer>5 * 9 + 2</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0108",
+      "numbers": [
+        3,
+        4,
+        11
+      ],
+      "target": 41,
+      "response": "<answer>3 + 4 * 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0109",
+      "numbers": [
+        3,
+        4,
+        8
+      ],
+      "target": 36,
+      "response": "<answer>3 * 4 * 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0110",
+      "numbers": [
+        3,
+        9,
+        10
+      ],
+      "target": 39,
+      "response": "<answer>3 * 9 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0111",
+      "numbers": [
+        2,
+        7,
+        12
+      ],
+      "target": 21,
+      "response": "<answer>2 + 7 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0112",
+      "numbers": [
+        3,
+        7,
+        11
+      ],
+      "target": 40,
+      "response": "<answer>3 * 7 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0113",
+      "numbers": [
+        5,
+        8,
+        12
+      ],
+      "target": 28,
+      "response": "<answer>5 + 8 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0114",
+      "numbers": [
+        5,
+        10,
+        11
+      ],
+      "target": 39,
+      "response": "<answer>5 + 10 + 11</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0115",
+      "numbers": [
+        4,
+        7,
+        12
+      ],
+      "target": 55,
+      "response": "<answer>4 * 7 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0116",
+      "numbers": [
+        3,
+        5,
+        12
+      ],
+      "target": 27,
+      "response": "<answer>3 * 5 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0117",
+      "numbers": [
+        2,
+        5,
+        12
+      ],
+      "target": 34,
+      "response": "<answer>2 + 5 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0118",
+      "numbers": [
+        3,
+        4,
+        5
+      ],
+      "target": 32,
+      "response": "<answer>3 * 5 + 4</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0119",
+      "numbers": [
+        3,
+        5,
+        6
+      ],
+      "target": 13,
+      "response": "<answer>3 + 5 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0120",
+      "numbers": [
+        4,
+        9,
+        12
+      ],
+      "target": 57,
+      "response": "<answer>4 * 9 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0121",
+      "numbers": [
+        4,
+        9,
+        10
+      ],
+      "target": 46,
+      "response": "<answer>4 * 9 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0122",
+      "numbers": [
+        2,
+        3,
+        7
+      ],
+      "target": 19,
+      "response": "<answer>2 + 7 + 3</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0123",
+      "numbers": [
+        4,
+        7,
+        9
+      ],
+      "target": 59,
+      "response": "<answer>4 * 9 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0124",
+      "numbers": [
+        2,
+        6,
+        7
+      ],
+      "target": 19,
+      "response": "<answer>2 + 6 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0125",
+      "numbers": [
+        4,
+        7,
+        12
+      ],
+      "target": 23,
+      "response": "<answer>4 + 7 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0126",
+      "numbers": [
+        4,
+        5,
+        10
+      ],
+      "target": 45,
+      "response": "<answer>4 * 5 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0127",
+      "numbers": [
+        3,
+        6,
+        9
+      ],
+      "target": 27,
+      "response": "<answer>3 * 9 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0128",
+      "numbers": [
+        3,
+        7,
+        10
+      ],
+      "target": 37,
+      "response": "<answer>3 * 7 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0129",
+      "numbers": [
+        4,
+        5,
+        6
+      ],
+      "target": 29,
+      "response": "<answer>4 + 5 + 6 + 29</answer>",
+      "tokens": 18,
+      "format_ok": true,
+      "numbers_ok": false,
+      "correct": false,
+      "reason": "numbers"
+    },
+    {
+      "id": "final_test-0130",
+      "numbers": [
+        4,
+        5,
+        11
+      ],
+      "target": 59,
+      "response": "<answer>4 * 5 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0131",
+      "numbers": [
+        2,
+        6,
+        8
+      ],
+      "target": 16,
+      "response": "<answer>2 + 6 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0132",
+      "numbers": [
+        2,
+        7,
+        11
+      ],
+      "target": 29,
+      "response": "<answer>2 + 7 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0133",
+      "numbers": [
+        3,
+        4,
+        11
+      ],
+      "target": 37,
+      "response": "<answer>3 + 11 * 4</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0134",
+      "numbers": [
+        3,
+        8,
+        10
+      ],
+      "target": 38,
+      "response": "<answer>3 * 8 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0135",
+      "numbers": [
+        6,
+        7,
+        9
+      ],
+      "target": 51,
+      "response": "<answer>6 * 7 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0136",
+      "numbers": [
+        5,
+        7,
+        9
+      ],
+      "target": 38,
+      "response": "<answer>5 * 7 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0137",
+      "numbers": [
+        2,
+        7,
+        9
+      ],
+      "target": 18,
+      "response": "<answer>2 + 7 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0138",
+      "numbers": [
+        3,
+        6,
+        10
+      ],
+      "target": 19,
+      "response": "<answer>3 + 6 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0139",
+      "numbers": [
+        5,
+        6,
+        10
+      ],
+      "target": 44,
+      "response": "<answer>5 * 6 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0140",
+      "numbers": [
+        4,
+        6,
+        9
+      ],
+      "target": 58,
+      "response": "<answer>4 * 9 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0141",
+      "numbers": [
+        3,
+        8,
+        9
+      ],
+      "target": 35,
+      "response": "<answer>3 + 8 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0142",
+      "numbers": [
+        4,
+        8,
+        12
+      ],
+      "target": 40,
+      "response": "<answer>4 * 8 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0143",
+      "numbers": [
+        2,
+        4,
+        10
+      ],
+      "target": 60,
+      "response": "<answer>2 * 4 * 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0144",
+      "numbers": [
+        3,
+        7,
+        10
+      ],
+      "target": 23,
+      "response": "<answer>3 + 7 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0145",
+      "numbers": [
+        3,
+        4,
+        5
+      ],
+      "target": 17,
+      "response": "<answer>3 + 4 + 5</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0146",
+      "numbers": [
+        2,
+        5,
+        7
+      ],
+      "target": 45,
+      "response": "<answer>2 * 5 * 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0147",
+      "numbers": [
+        3,
+        7,
+        10
+      ],
+      "target": 31,
+      "response": "<answer>3 * 7 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0148",
+      "numbers": [
+        3,
+        7,
+        9
+      ],
+      "target": 30,
+      "response": "<answer>3 * 7 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0149",
+      "numbers": [
+        2,
+        6,
+        8
+      ],
+      "target": 22,
+      "response": "<answer>2 + 6 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0150",
+      "numbers": [
+        6,
+        7,
+        11
+      ],
+      "target": 59,
+      "response": "<answer>6 * 7 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0151",
+      "numbers": [
+        5,
+        8,
+        9
+      ],
+      "target": 37,
+      "response": "<answer>5 + 8 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0152",
+      "numbers": [
+        3,
+        4,
+        10
+      ],
+      "target": 26,
+      "response": "<answer>3 + 4 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0153",
+      "numbers": [
+        5,
+        7,
+        8
+      ],
+      "target": 51,
+      "response": "<answer>5 * 7 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0154",
+      "numbers": [
+        4,
+        5,
+        11
+      ],
+      "target": 49,
+      "response": "<answer>4 * 5 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0155",
+      "numbers": [
+        3,
+        4,
+        9
+      ],
+      "target": 16,
+      "response": "<answer>3 + 4 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0156",
+      "numbers": [
+        4,
+        6,
+        7
+      ],
+      "target": 17,
+      "response": "<answer>4 + 6 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0157",
+      "numbers": [
+        3,
+        4,
+        6
+      ],
+      "target": 27,
+      "response": "<answer>3 * 4 * 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0158",
+      "numbers": [
+        2,
+        5,
+        7
+      ],
+      "target": 19,
+      "response": "<answer>2 + 5 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0159",
+      "numbers": [
+        4,
+        5,
+        11
+      ],
+      "target": 31,
+      "response": "<answer>4 + 5 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0160",
+      "numbers": [
+        3,
+        5,
+        6
+      ],
+      "target": 48,
+      "response": "<answer>3 * 5 * 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0161",
+      "numbers": [
+        6,
+        8,
+        11
+      ],
+      "target": 59,
+      "response": "<answer>6 * 8 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0162",
+      "numbers": [
+        3,
+        5,
+        11
+      ],
+      "target": 19,
+      "response": "<answer>3 + 5 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0163",
+      "numbers": [
+        8,
+        10,
+        12
+      ],
+      "target": 30,
+      "response": "<answer>8 + 10 + 12</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0164",
+      "numbers": [
+        3,
+        7,
+        8
+      ],
+      "target": 17,
+      "response": "<answer>3 + 7 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0165",
+      "numbers": [
+        3,
+        5,
+        10
+      ],
+      "target": 47,
+      "response": "<answer>3 * 5 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0166",
+      "numbers": [
+        6,
+        11,
+        12
+      ],
+      "target": 29,
+      "response": "<answer>11 + 12 + 6</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0167",
+      "numbers": [
+        2,
+        3,
+        11
+      ],
+      "target": 31,
+      "response": "<answer>2 + 3 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0168",
+      "numbers": [
+        2,
+        5,
+        10
+      ],
+      "target": 60,
+      "response": "<answer>2 * 5 * 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0169",
+      "numbers": [
+        2,
+        6,
+        11
+      ],
+      "target": 28,
+      "response": "<answer>2 + 6 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0170",
+      "numbers": [
+        2,
+        5,
+        7
+      ],
+      "target": 9,
+      "response": "<answer>2 + 5 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0171",
+      "numbers": [
+        5,
+        10,
+        12
+      ],
+      "target": 38,
+      "response": "<answer>10 + 5 * 12</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0172",
+      "numbers": [
+        2,
+        8,
+        9
+      ],
+      "target": 26,
+      "response": "<answer>2 + 8 * 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0173",
+      "numbers": [
+        5,
+        6,
+        8
+      ],
+      "target": 38,
+      "response": "<answer>5 * 6 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0174",
+      "numbers": [
+        3,
+        4,
+        12
+      ],
+      "target": 19,
+      "response": "<answer>3 + 4 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0175",
+      "numbers": [
+        2,
+        5,
+        7
+      ],
+      "target": 14,
+      "response": "<answer>2 + 5 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0176",
+      "numbers": [
+        2,
+        5,
+        10
+      ],
+      "target": 25,
+      "response": "<answer>2 + 5 * 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0177",
+      "numbers": [
+        2,
+        8,
+        12
+      ],
+      "target": 32,
+      "response": "<answer>2 + 8 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0178",
+      "numbers": [
+        8,
+        9,
+        10
+      ],
+      "target": 27,
+      "response": "<answer>8 + 9 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0179",
+      "numbers": [
+        5,
+        9,
+        11
+      ],
+      "target": 56,
+      "response": "<answer>5 * 9 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0180",
+      "numbers": [
+        5,
+        11,
+        12
+      ],
+      "target": 43,
+      "response": "<answer>11 + 5 * 12</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0181",
+      "numbers": [
+        2,
+        5,
+        6
+      ],
+      "target": 13,
+      "response": "<answer>2 + 5 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0182",
+      "numbers": [
+        5,
+        10,
+        12
+      ],
+      "target": 27,
+      "response": "<answer>10 + 5 + 12</answer>",
+      "tokens": 16,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0183",
+      "numbers": [
+        4,
+        8,
+        9
+      ],
+      "target": 28,
+      "response": "<answer>4 + 8 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0184",
+      "numbers": [
+        3,
+        4,
+        6
+      ],
+      "target": 36,
+      "response": "<answer>3 * 4 * 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0185",
+      "numbers": [
+        4,
+        6,
+        10
+      ],
+      "target": 34,
+      "response": "<answer>4 * 6 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0186",
+      "numbers": [
+        2,
+        5,
+        10
+      ],
+      "target": 48,
+      "response": "<answer>2 * 5 * 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0187",
+      "numbers": [
+        3,
+        8,
+        12
+      ],
+      "target": 28,
+      "response": "<answer>3 + 8 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0188",
+      "numbers": [
+        3,
+        4,
+        10
+      ],
+      "target": 37,
+      "response": "<answer>3 + 10 + 4</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0189",
+      "numbers": [
+        2,
+        4,
+        9
+      ],
+      "target": 34,
+      "response": "<answer>2 + 4 * 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0190",
+      "numbers": [
+        2,
+        5,
+        11
+      ],
+      "target": 21,
+      "response": "<answer>2 + 5 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0191",
+      "numbers": [
+        2,
+        6,
+        10
+      ],
+      "target": 22,
+      "response": "<answer>2 + 6 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0192",
+      "numbers": [
+        2,
+        4,
+        5
+      ],
+      "target": 6,
+      "response": "<answer>2 + 4 + 5</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0193",
+      "numbers": [
+        4,
+        5,
+        12
+      ],
+      "target": 21,
+      "response": "<answer>4 + 5 + 12</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0194",
+      "numbers": [
+        2,
+        5,
+        6
+      ],
+      "target": 16,
+      "response": "<answer>2 + 5 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0195",
+      "numbers": [
+        4,
+        6,
+        9
+      ],
+      "target": 15,
+      "response": "<answer>4 + 6 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0196",
+      "numbers": [
+        4,
+        6,
+        9
+      ],
+      "target": 50,
+      "response": "<answer>4 * 6 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0197",
+      "numbers": [
+        3,
+        5,
+        10
+      ],
+      "target": 25,
+      "response": "<answer>3 + 5 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0198",
+      "numbers": [
+        4,
+        6,
+        11
+      ],
+      "target": 13,
+      "response": "<answer>4 + 6 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0199",
+      "numbers": [
+        3,
+        6,
+        9
+      ],
+      "target": 51,
+      "response": "<answer>3 * 9 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0200",
+      "numbers": [
+        2,
+        5,
+        10
+      ],
+      "target": 30,
+      "response": "<answer>2 + 5 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0201",
+      "numbers": [
+        6,
+        7,
+        8
+      ],
+      "target": 50,
+      "response": "<answer>6 * 7 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0202",
+      "numbers": [
+        3,
+        4,
+        9
+      ],
+      "target": 33,
+      "response": "<answer>3 + 9 + 4 * 3</answer>",
+      "tokens": 17,
+      "format_ok": true,
+      "numbers_ok": false,
+      "correct": false,
+      "reason": "numbers"
+    },
+    {
+      "id": "final_test-0203",
+      "numbers": [
+        4,
+        5,
+        6
+      ],
+      "target": 19,
+      "response": "<answer>4 + 5 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0204",
+      "numbers": [
+        2,
+        5,
+        11
+      ],
+      "target": 27,
+      "response": "<answer>2 + 5 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0205",
+      "numbers": [
+        4,
+        6,
+        10
+      ],
+      "target": 46,
+      "response": "<answer>4 * 10 + 6</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0206",
+      "numbers": [
+        2,
+        4,
+        11
+      ],
+      "target": 17,
+      "response": "<answer>11 + 4 + 2</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0207",
+      "numbers": [
+        5,
+        6,
+        8
+      ],
+      "target": 34,
+      "response": "<answer>5 * 6 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0208",
+      "numbers": [
+        5,
+        7,
+        11
+      ],
+      "target": 24,
+      "response": "<answer>5 + 7 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0209",
+      "numbers": [
+        2,
+        9,
+        11
+      ],
+      "target": 22,
+      "response": "<answer>2 + 9 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0210",
+      "numbers": [
+        3,
+        7,
+        8
+      ],
+      "target": 45,
+      "response": "<answer>3 * 7 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0211",
+      "numbers": [
+        3,
+        5,
+        7
+      ],
+      "target": 22,
+      "response": "<answer>3 + 5 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0212",
+      "numbers": [
+        2,
+        6,
+        7
+      ],
+      "target": 5,
+      "response": "<answer>2 + 6 - 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0213",
+      "numbers": [
+        6,
+        8,
+        10
+      ],
+      "target": 24,
+      "response": "<answer>6 + 8 + 10</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0214",
+      "numbers": [
+        3,
+        4,
+        11
+      ],
+      "target": 18,
+      "response": "<answer>3 + 4 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0215",
+      "numbers": [
+        2,
+        6,
+        9
+      ],
+      "target": 17,
+      "response": "<answer>2 + 6 + 9</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": true,
+      "reason": "correct"
+    },
+    {
+      "id": "final_test-0216",
+      "numbers": [
+        4,
+        5,
+        6
+      ],
+      "target": 26,
+      "response": "<answer>4 + 5 + 6</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0217",
+      "numbers": [
+        3,
+        8,
+        11
+      ],
+      "target": 35,
+      "response": "<answer>3 + 8 + 11</answer>",
+      "tokens": 15,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0218",
+      "numbers": [
+        4,
+        7,
+        8
+      ],
+      "target": 39,
+      "response": "<answer>4 * 7 + 8</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    },
+    {
+      "id": "final_test-0219",
+      "numbers": [
+        2,
+        5,
+        7
+      ],
+      "target": 17,
+      "response": "<answer>2 + 5 + 7</answer>",
+      "tokens": 14,
+      "format_ok": true,
+      "numbers_ok": true,
+      "correct": false,
+      "reason": "target"
+    }
+  ]
+}
