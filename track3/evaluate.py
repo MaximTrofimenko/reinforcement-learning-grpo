@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from pathlib import Path
 
 import torch
@@ -13,10 +14,11 @@ from task import check_answer
 
 
 HERE = Path(__file__).resolve().parent
+DATA_DIR = Path(os.environ.get("TRACK3_DATA_DIR", HERE / "data"))
 
 
 def read_tasks(split: str) -> list[dict]:
-    return [json.loads(line) for line in (HERE / "data" / f"{split}.jsonl").read_text().splitlines()]
+    return [json.loads(line) for line in (DATA_DIR / f"{split}.jsonl").read_text().splitlines()]
 
 
 def evaluate(model, tokenizer, device: str, tasks: list[dict], output: Path) -> dict:

@@ -48,6 +48,7 @@ def generate_one(model, tokenizer, task: dict, device: str, sample: bool = False
         ids,
         max_new_tokens=MAX_NEW_TOKENS,
         do_sample=sample,
+        num_beams=1,
         temperature=0.8 if sample else None,
         top_p=0.95 if sample else None,
         pad_token_id=tokenizer.eos_token_id,

@@ -34,13 +34,16 @@ def mean_sd(values: list[float]) -> dict:
 
 
 def main() -> None:
+    global SEEDS
     parser = argparse.ArgumentParser()
     parser.add_argument("--results-dir", type=Path, default=HERE / "results")
+    parser.add_argument("--seeds", type=int, nargs=3, default=SEEDS)
     args = parser.parse_args()
+    SEEDS = args.seeds
     results = args.results_dir
     run_dirs = {
-        "kl": [results, results / "kl_seed15", results / "kl_seed16"],
-        "no_kl": [results / "no_kl", results / "no_kl_seed15", results / "no_kl_seed16"],
+        "kl": [results] + [results / f"kl_seed{str(seed)[-2:]}" for seed in SEEDS[1:]],
+        "no_kl": [results / "no_kl"] + [results / f"no_kl_seed{str(seed)[-2:]}" for seed in SEEDS[1:]],
     }
     logs = {
         key: [[json.loads(line) for line in (directory / "training_log.jsonl").read_text().splitlines()] for directory in dirs]
@@ -90,7 +93,7 @@ def main() -> None:
     axes[0, 1].set_title("Точность на 50 проверочных задачах")
     axes[0, 1].set_xlabel("Шаг GRPO")
     axes[0, 1].set_ylabel("Точные решения, %")
-    axes[0, 1].set_ylim(0, 45)
+    axes[0, 1].set_ylim(0, 60)
     axes[0, 1].grid(alpha=0.25)
     axes[0, 1].legend(fontsize=8)
     fig.tight_layout()
