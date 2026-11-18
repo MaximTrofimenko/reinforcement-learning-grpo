@@ -1,0 +1,728 @@
+
+STAGE base_final
+W1118 17:13:19.605000 41477 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<06:38,  1.29s/it]Loading weights:  72%|███████▏  | 224/311 [00:01<00:00, 221.98it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 168.49it/s]
+Device: mps; model: Qwen/Qwen3-0.6B
+Evaluated 25/220; accuracy = 0.280
+Evaluated 50/220; accuracy = 0.240
+Evaluated 75/220; accuracy = 0.280
+Evaluated 100/220; accuracy = 0.240
+Evaluated 125/220; accuracy = 0.224
+Evaluated 150/220; accuracy = 0.227
+Evaluated 175/220; accuracy = 0.223
+Evaluated 200/220; accuracy = 0.235
+Evaluated 220/220; accuracy = 0.245
+{'count': 220, 'accuracy': 0.24545454545454545, 'format_rate': 1.0, 'numbers_rate': 0.9090909090909091, 'mean_tokens': 14.104545454545455}
+
+STAGE base_dev
+W1118 17:14:33.825000 41533 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<03:59,  1.29it/s]Loading weights:  69%|██████▉   | 215/311 [00:00<00:00, 334.59it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 258.43it/s]
+Device: mps; model: Qwen/Qwen3-0.6B
+Evaluated 25/50; accuracy = 0.280
+Evaluated 50/50; accuracy = 0.300
+{'count': 50, 'accuracy': 0.3, 'format_rate': 1.0, 'numbers_rate': 1.0, 'mean_tokens': 14.34}
+
+STAGE train_seed20261118_beta0.02
+W1118 17:14:53.853000 41563 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<01:38,  3.15it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 832.53it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+trainable params: 1,146,880 || all params: 597,196,800 || trainable%: 0.1920
+step 10/200: reward 0.00, KL 0.0010, mixed False
+step 20/200: reward 0.00, KL 0.0128, mixed False
+step 30/200: reward 0.00, KL 0.0111, mixed False
+step 40/200: reward 0.00, KL 0.0087, mixed False
+step 50/200: reward 0.00, KL 0.0283, mixed False
+Evaluated 25/50; accuracy = 0.200
+Evaluated 50/50; accuracy = 0.240
+{'count': 50, 'accuracy': 0.24, 'format_rate': 1.0, 'numbers_rate': 1.0, 'mean_tokens': 14.54}
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:307: UserWarning: Could not find a config file in Qwen/Qwen3-0.6B - will assume that the vocabulary was not modified.
+  warnings.warn(
+step 60/200: reward 0.00, KL 0.0107, mixed False
+step 70/200: reward 0.00, KL 0.0165, mixed False
+step 80/200: reward 0.75, KL 0.0144, mixed True
+step 90/200: reward 0.00, KL 0.0137, mixed False
+step 100/200: reward 0.00, KL 0.0364, mixed False
+Evaluated 25/50; accuracy = 0.240
+Evaluated 50/50; accuracy = 0.280
+{'count': 50, 'accuracy': 0.28, 'format_rate': 1.0, 'numbers_rate': 1.0, 'mean_tokens': 14.56}
+step 110/200: reward 0.75, KL 0.0365, mixed True
+step 120/200: reward 1.00, KL 0.0335, mixed False
+step 130/200: reward 0.00, KL 0.0993, mixed False
+step 140/200: reward 0.00, KL 0.0370, mixed False
+step 150/200: reward 0.00, KL 0.0256, mixed False
+Evaluated 25/50; accuracy = 0.200
+Evaluated 50/50; accuracy = 0.260
+{'count': 50, 'accuracy': 0.26, 'format_rate': 1.0, 'numbers_rate': 0.92, 'mean_tokens': 14.86}
+step 160/200: reward 1.00, KL 0.0269, mixed False
+step 170/200: reward 0.00, KL 0.0282, mixed False
+step 180/200: reward 0.00, KL 0.0347, mixed False
+step 190/200: reward 1.00, KL 0.0512, mixed False
+step 200/200: reward 0.00, KL 0.0435, mixed False
+Evaluated 25/50; accuracy = 0.160
+Evaluated 50/50; accuracy = 0.240
+{'count': 50, 'accuracy': 0.24, 'format_rate': 0.96, 'numbers_rate': 0.64, 'mean_tokens': 15.68}
+
+STAGE train_seed20261118_beta0.0
+W1118 17:22:35.176000 41937 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:38,  1.96it/s]Loading weights:  83%|████████▎ | 257/311 [00:00<00:00, 557.82it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 454.10it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+trainable params: 1,146,880 || all params: 597,196,800 || trainable%: 0.1920
+step 10/200: reward 0.00, KL 0.0002, mixed False
+step 20/200: reward 0.50, KL 0.0367, mixed True
+step 30/200: reward 0.25, KL 0.0687, mixed True
+step 40/200: reward 0.00, KL 0.1514, mixed False
+step 50/200: reward 0.00, KL 0.0183, mixed False
+Evaluated 25/50; accuracy = 0.120
+Evaluated 50/50; accuracy = 0.080
+{'count': 50, 'accuracy': 0.08, 'format_rate': 1.0, 'numbers_rate': 1.0, 'mean_tokens': 14.56}
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:307: UserWarning: Could not find a config file in Qwen/Qwen3-0.6B - will assume that the vocabulary was not modified.
+  warnings.warn(
+step 60/200: reward 0.00, KL 0.0486, mixed False
+step 70/200: reward 0.00, KL 0.0474, mixed False
+step 80/200: reward 0.00, KL 0.0413, mixed False
+step 90/200: reward 0.75, KL 0.0348, mixed True
+step 100/200: reward 0.00, KL 0.1896, mixed False
+Evaluated 25/50; accuracy = 0.240
+Evaluated 50/50; accuracy = 0.160
+{'count': 50, 'accuracy': 0.16, 'format_rate': 1.0, 'numbers_rate': 0.94, 'mean_tokens': 14.76}
+step 110/200: reward 0.25, KL 0.0520, mixed True
+step 120/200: reward 1.00, KL 0.0765, mixed False
+step 130/200: reward 0.00, KL 0.2908, mixed False
+step 140/200: reward 0.00, KL 0.4933, mixed False
+step 150/200: reward 0.00, KL 0.3590, mixed False
+Evaluated 25/50; accuracy = 0.160
+Evaluated 50/50; accuracy = 0.220
+{'count': 50, 'accuracy': 0.22, 'format_rate': 1.0, 'numbers_rate': 0.64, 'mean_tokens': 15.92}
+step 160/200: reward 1.00, KL 0.0302, mixed False
+step 170/200: reward 0.00, KL 0.0493, mixed False
+step 180/200: reward 0.00, KL 0.0197, mixed False
+step 190/200: reward 1.00, KL 0.0534, mixed False
+step 200/200: reward 0.00, KL 0.0332, mixed False
+Evaluated 25/50; accuracy = 0.200
+Evaluated 50/50; accuracy = 0.240
+{'count': 50, 'accuracy': 0.24, 'format_rate': 1.0, 'numbers_rate': 0.94, 'mean_tokens': 14.46}
+
+STAGE train_seed20261119_beta0.02
+W1118 17:38:05.225000 42590 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:39,  1.94it/s]Loading weights:  83%|████████▎ | 257/311 [00:00<00:00, 555.45it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 452.97it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+trainable params: 1,146,880 || all params: 597,196,800 || trainable%: 0.1920
+step 10/200: reward 0.00, KL 0.0277, mixed False
+step 20/200: reward 0.00, KL 0.0188, mixed False
+step 30/200: reward 0.00, KL 0.0165, mixed False
+step 40/200: reward 0.00, KL 0.0165, mixed False
+step 50/200: reward 0.50, KL 0.0075, mixed True
+Evaluated 25/50; accuracy = 0.320
+Evaluated 50/50; accuracy = 0.280
+{'count': 50, 'accuracy': 0.28, 'format_rate': 1.0, 'numbers_rate': 1.0, 'mean_tokens': 13.9}
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:307: UserWarning: Could not find a config file in Qwen/Qwen3-0.6B - will assume that the vocabulary was not modified.
+  warnings.warn(
+step 60/200: reward 0.00, KL 0.0069, mixed False
+step 70/200: reward 0.25, KL 0.0155, mixed True
+step 80/200: reward 0.25, KL 0.0104, mixed True
+step 90/200: reward 0.00, KL 0.0136, mixed False
+step 100/200: reward 0.00, KL 0.0054, mixed False
+Evaluated 25/50; accuracy = 0.240
+Evaluated 50/50; accuracy = 0.280
+{'count': 50, 'accuracy': 0.28, 'format_rate': 1.0, 'numbers_rate': 0.9, 'mean_tokens': 14.72}
+step 110/200: reward 0.00, KL 0.0189, mixed False
+step 120/200: reward 0.00, KL 0.0073, mixed False
+step 130/200: reward 0.00, KL 0.0819, mixed False
+step 140/200: reward 0.00, KL 0.1325, mixed False
+step 150/200: reward 0.25, KL 0.0444, mixed True
+Evaluated 25/50; accuracy = 0.280
+Evaluated 50/50; accuracy = 0.240
+{'count': 50, 'accuracy': 0.24, 'format_rate': 1.0, 'numbers_rate': 0.84, 'mean_tokens': 15.02}
+step 160/200: reward 1.00, KL 0.0945, mixed False
+step 170/200: reward 0.00, KL 0.0391, mixed False
+step 180/200: reward 0.00, KL 0.1222, mixed False
+step 190/200: reward 1.00, KL 0.0880, mixed False
+step 200/200: reward 0.00, KL 0.1653, mixed False
+Evaluated 25/50; accuracy = 0.160
+Evaluated 50/50; accuracy = 0.220
+{'count': 50, 'accuracy': 0.22, 'format_rate': 1.0, 'numbers_rate': 0.86, 'mean_tokens': 14.96}
+
+STAGE train_seed20261119_beta0.0
+W1118 17:45:52.230000 43057 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:40,  1.93it/s]Loading weights:  85%|████████▍ | 263/311 [00:00<00:00, 565.16it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 454.51it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+trainable params: 1,146,880 || all params: 597,196,800 || trainable%: 0.1920
+step 10/200: reward 0.00, KL 0.0325, mixed False
+step 20/200: reward 0.00, KL 0.1049, mixed False
+step 30/200: reward 0.00, KL 0.1224, mixed False
+step 40/200: reward 0.00, KL 0.0386, mixed False
+step 50/200: reward 0.00, KL 0.1681, mixed False
+Evaluated 25/50; accuracy = 0.200
+Evaluated 50/50; accuracy = 0.120
+{'count': 50, 'accuracy': 0.12, 'format_rate': 1.0, 'numbers_rate': 0.72, 'mean_tokens': 14.16}
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:307: UserWarning: Could not find a config file in Qwen/Qwen3-0.6B - will assume that the vocabulary was not modified.
+  warnings.warn(
+step 60/200: reward 0.50, KL 0.0764, mixed True
+step 70/200: reward 0.00, KL 0.0848, mixed False
+step 80/200: reward 0.25, KL 0.0366, mixed True
+step 90/200: reward 0.00, KL 0.1054, mixed False
+step 100/200: reward 0.00, KL 0.0730, mixed False
+Evaluated 25/50; accuracy = 0.160
+Evaluated 50/50; accuracy = 0.200
+{'count': 50, 'accuracy': 0.2, 'format_rate': 0.98, 'numbers_rate': 0.5, 'mean_tokens': 15.6}
+step 110/200: reward 0.00, KL 0.2648, mixed False
+step 120/200: reward 0.00, KL 0.1369, mixed False
+step 130/200: reward 0.00, KL 0.0704, mixed False
+step 140/200: reward 0.50, KL 0.1319, mixed True
+step 150/200: reward 0.00, KL 0.0957, mixed False
+Evaluated 25/50; accuracy = 0.240
+Evaluated 50/50; accuracy = 0.260
+{'count': 50, 'accuracy': 0.26, 'format_rate': 1.0, 'numbers_rate': 1.0, 'mean_tokens': 14.2}
+step 160/200: reward 1.00, KL 0.0996, mixed False
+step 170/200: reward 0.00, KL 0.2646, mixed False
+step 180/200: reward 0.00, KL 0.1230, mixed False
+step 190/200: reward 1.00, KL 0.0902, mixed False
+step 200/200: reward 0.00, KL 0.2771, mixed False
+Evaluated 25/50; accuracy = 0.200
+Evaluated 50/50; accuracy = 0.260
+{'count': 50, 'accuracy': 0.26, 'format_rate': 1.0, 'numbers_rate': 0.78, 'mean_tokens': 15.1}
+
+STAGE train_seed20261120_beta0.02
+W1118 17:53:46.173000 43487 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:41,  1.92it/s]Loading weights:  86%|████████▌ | 268/311 [00:00<00:00, 568.60it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 456.38it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+trainable params: 1,146,880 || all params: 597,196,800 || trainable%: 0.1920
+step 10/200: reward 0.75, KL 0.0221, mixed True
+step 20/200: reward 0.00, KL 0.0342, mixed False
+step 30/200: reward 1.00, KL 0.0074, mixed False
+step 40/200: reward 0.00, KL 0.0213, mixed False
+step 50/200: reward 0.50, KL 0.0175, mixed True
+Evaluated 25/50; accuracy = 0.240
+Evaluated 50/50; accuracy = 0.240
+{'count': 50, 'accuracy': 0.24, 'format_rate': 1.0, 'numbers_rate': 0.96, 'mean_tokens': 14.26}
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:307: UserWarning: Could not find a config file in Qwen/Qwen3-0.6B - will assume that the vocabulary was not modified.
+  warnings.warn(
+step 60/200: reward 0.00, KL 0.0086, mixed False
+step 70/200: reward 0.00, KL 0.0126, mixed False
+step 80/200: reward 0.50, KL 0.0260, mixed True
+step 90/200: reward 0.00, KL 0.0074, mixed False
+step 100/200: reward 0.50, KL 0.0222, mixed True
+Evaluated 25/50; accuracy = 0.200
+Evaluated 50/50; accuracy = 0.200
+{'count': 50, 'accuracy': 0.2, 'format_rate': 1.0, 'numbers_rate': 0.9, 'mean_tokens': 14.16}
+step 110/200: reward 0.00, KL 0.0629, mixed False
+step 120/200: reward 0.00, KL 0.0587, mixed False
+step 130/200: reward 0.00, KL 0.0179, mixed False
+step 140/200: reward 0.00, KL 0.0943, mixed False
+step 150/200: reward 0.75, KL 0.0842, mixed True
+Evaluated 25/50; accuracy = 0.240
+Evaluated 50/50; accuracy = 0.260
+{'count': 50, 'accuracy': 0.26, 'format_rate': 1.0, 'numbers_rate': 0.86, 'mean_tokens': 14.98}
+step 160/200: reward 0.00, KL 0.0584, mixed False
+step 170/200: reward 0.25, KL 0.0141, mixed True
+step 180/200: reward 0.50, KL 0.2828, mixed True
+step 190/200: reward 0.00, KL 0.0056, mixed False
+step 200/200: reward 0.00, KL 0.1381, mixed False
+Evaluated 25/50; accuracy = 0.200
+Evaluated 50/50; accuracy = 0.240
+{'count': 50, 'accuracy': 0.24, 'format_rate': 1.0, 'numbers_rate': 0.98, 'mean_tokens': 14.58}
+
+STAGE train_seed20261120_beta0.0
+W1118 18:01:35.222000 44106 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:39,  1.94it/s]Loading weights:  83%|████████▎ | 257/311 [00:00<00:00, 555.19it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 453.81it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+trainable params: 1,146,880 || all params: 597,196,800 || trainable%: 0.1920
+step 10/200: reward 1.00, KL 0.0348, mixed False
+step 20/200: reward 0.00, KL 0.1063, mixed False
+step 30/200: reward 1.00, KL 0.0058, mixed False
+step 40/200: reward 0.00, KL 0.0222, mixed False
+step 50/200: reward 0.50, KL 0.0072, mixed True
+Evaluated 25/50; accuracy = 0.200
+Evaluated 50/50; accuracy = 0.200
+{'count': 50, 'accuracy': 0.2, 'format_rate': 1.0, 'numbers_rate': 1.0, 'mean_tokens': 14.46}
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:307: UserWarning: Could not find a config file in Qwen/Qwen3-0.6B - will assume that the vocabulary was not modified.
+  warnings.warn(
+step 60/200: reward 0.00, KL 0.0302, mixed False
+step 70/200: reward 0.00, KL 0.0443, mixed False
+step 80/200: reward 0.75, KL 0.0362, mixed True
+step 90/200: reward 0.00, KL 0.0165, mixed False
+step 100/200: reward 0.00, KL 0.0237, mixed False
+Evaluated 25/50; accuracy = 0.200
+Evaluated 50/50; accuracy = 0.220
+{'count': 50, 'accuracy': 0.22, 'format_rate': 1.0, 'numbers_rate': 0.98, 'mean_tokens': 14.38}
+step 110/200: reward 0.00, KL 0.0609, mixed False
+step 120/200: reward 0.00, KL 0.0830, mixed False
+step 130/200: reward 0.00, KL 0.0373, mixed False
+step 140/200: reward 0.00, KL 0.0709, mixed False
+step 150/200: reward 1.00, KL 0.0819, mixed False
+Evaluated 25/50; accuracy = 0.160
+Evaluated 50/50; accuracy = 0.220
+{'count': 50, 'accuracy': 0.22, 'format_rate': 1.0, 'numbers_rate': 0.98, 'mean_tokens': 14.26}
+step 160/200: reward 0.00, KL 0.1307, mixed False
+step 170/200: reward 0.00, KL 0.0530, mixed False
+step 180/200: reward 1.00, KL 0.0583, mixed False
+step 190/200: reward 0.00, KL 0.1398, mixed False
+step 200/200: reward 0.00, KL 0.0989, mixed False
+Evaluated 25/50; accuracy = 0.200
+Evaluated 50/50; accuracy = 0.240
+{'count': 50, 'accuracy': 0.24, 'format_rate': 1.0, 'numbers_rate': 0.84, 'mean_tokens': 14.02}
+
+STAGE final_seed20261118_beta0.02
+W1118 18:09:24.950000 44483 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:38,  1.95it/s]Loading weights:  83%|████████▎ | 257/311 [00:00<00:00, 556.73it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 454.71it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+Device: mps; model: Qwen/Qwen3-0.6B
+Evaluated 25/220; accuracy = 0.440
+Evaluated 50/220; accuracy = 0.320
+Evaluated 75/220; accuracy = 0.347
+Evaluated 100/220; accuracy = 0.300
+Evaluated 125/220; accuracy = 0.280
+Evaluated 150/220; accuracy = 0.273
+Evaluated 175/220; accuracy = 0.280
+Evaluated 200/220; accuracy = 0.300
+Evaluated 220/220; accuracy = 0.295
+{'count': 220, 'accuracy': 0.29545454545454547, 'format_rate': 0.9545454545454546, 'numbers_rate': 0.65, 'mean_tokens': 15.831818181818182}
+
+STAGE final_seed20261118_beta0.0
+W1118 18:10:45.674000 44532 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 3555.79it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+Device: mps; model: Qwen/Qwen3-0.6B
+Evaluated 25/220; accuracy = 0.440
+Evaluated 50/220; accuracy = 0.340
+Evaluated 75/220; accuracy = 0.360
+Evaluated 100/220; accuracy = 0.360
+Evaluated 125/220; accuracy = 0.336
+Evaluated 150/220; accuracy = 0.327
+Evaluated 175/220; accuracy = 0.337
+Evaluated 200/220; accuracy = 0.325
+Evaluated 220/220; accuracy = 0.318
+{'count': 220, 'accuracy': 0.3181818181818182, 'format_rate': 1.0, 'numbers_rate': 0.9363636363636364, 'mean_tokens': 14.281818181818181}
+
+STAGE final_seed20261119_beta0.02
+W1118 18:12:00.890000 44564 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<04:07,  1.25it/s]Loading weights:  65%|██████▌   | 203/311 [00:00<00:00, 306.09it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 242.67it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+Device: mps; model: Qwen/Qwen3-0.6B
+Evaluated 25/220; accuracy = 0.400
+Evaluated 50/220; accuracy = 0.340
+Evaluated 75/220; accuracy = 0.333
+Evaluated 100/220; accuracy = 0.330
+Evaluated 125/220; accuracy = 0.304
+Evaluated 150/220; accuracy = 0.280
+Evaluated 175/220; accuracy = 0.286
+Evaluated 200/220; accuracy = 0.280
+Evaluated 220/220; accuracy = 0.268
+{'count': 220, 'accuracy': 0.2681818181818182, 'format_rate': 1.0, 'numbers_rate': 0.7045454545454546, 'mean_tokens': 15.331818181818182}
+
+STAGE final_seed20261119_beta0.0
+W1118 18:13:20.903000 44603 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:52,  1.79it/s]Loading weights:  75%|███████▍  | 232/311 [00:00<00:00, 470.58it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 382.25it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+Device: mps; model: Qwen/Qwen3-0.6B
+Evaluated 25/220; accuracy = 0.400
+Evaluated 50/220; accuracy = 0.340
+Evaluated 75/220; accuracy = 0.360
+Evaluated 100/220; accuracy = 0.360
+Evaluated 125/220; accuracy = 0.344
+Evaluated 150/220; accuracy = 0.320
+Evaluated 175/220; accuracy = 0.326
+Evaluated 200/220; accuracy = 0.325
+Evaluated 220/220; accuracy = 0.327
+{'count': 220, 'accuracy': 0.32727272727272727, 'format_rate': 1.0, 'numbers_rate': 0.7181818181818181, 'mean_tokens': 15.027272727272727}
+
+STAGE final_seed20261120_beta0.02
+W1118 18:14:38.544000 44642 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<03:02,  1.69it/s]Loading weights:  76%|███████▌  | 235/311 [00:00<00:00, 451.90it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 384.12it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+Device: mps; model: Qwen/Qwen3-0.6B
+Evaluated 25/220; accuracy = 0.280
+Evaluated 50/220; accuracy = 0.280
+Evaluated 75/220; accuracy = 0.320
+Evaluated 100/220; accuracy = 0.330
+Evaluated 125/220; accuracy = 0.320
+Evaluated 150/220; accuracy = 0.307
+Evaluated 175/220; accuracy = 0.320
+Evaluated 200/220; accuracy = 0.320
+Evaluated 220/220; accuracy = 0.323
+{'count': 220, 'accuracy': 0.32272727272727275, 'format_rate': 1.0, 'numbers_rate': 0.9818181818181818, 'mean_tokens': 14.527272727272727}
+
+STAGE final_seed20261120_beta0.0
+W1118 18:15:55.392000 44688 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:55,  1.76it/s]Loading weights:  93%|█████████▎| 290/311 [00:00<00:00, 577.74it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 441.92it/s]
+/Users/tmg/Documents/mifi/3 семестр/обучение с подкреплением/сессионное_задание/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+Device: mps; model: Qwen/Qwen3-0.6B
+Evaluated 25/220; accuracy = 0.360
+Evaluated 50/220; accuracy = 0.340
+Evaluated 75/220; accuracy = 0.347
+Evaluated 100/220; accuracy = 0.330
+Evaluated 125/220; accuracy = 0.328
+Evaluated 150/220; accuracy = 0.320
+Evaluated 175/220; accuracy = 0.331
+Evaluated 200/220; accuracy = 0.315
+Evaluated 220/220; accuracy = 0.318
+{'count': 220, 'accuracy': 0.3181818181818182, 'format_rate': 1.0, 'numbers_rate': 0.8590909090909091, 'mean_tokens': 13.681818181818182}
+
+STAGE analysis
+{
+  "seeds": [
+    20261118,
+    20261119,
+    20261120
+  ],
+  "base_final": {
+    "count": 220,
+    "accuracy": 0.24545454545454545,
+    "format_rate": 1.0,
+    "numbers_rate": 0.9090909090909091,
+    "mean_tokens": 14.104545454545455
+  },
+  "final_test": {
+    "kl": {
+      "accuracy": {
+        "mean": 0.29545454545454547,
+        "sd": 0.027272727272727282,
+        "by_seed": {
+          "20261118": 0.29545454545454547,
+          "20261119": 0.2681818181818182,
+          "20261120": 0.32272727272727275
+        }
+      },
+      "format_rate": {
+        "mean": 0.9848484848484849,
+        "sd": 0.026243194054073875,
+        "by_seed": {
+          "20261118": 0.9545454545454546,
+          "20261119": 1.0,
+          "20261120": 1.0
+        }
+      },
+      "numbers_rate": {
+        "mean": 0.7787878787878788,
+        "sd": 0.1779319522017478,
+        "by_seed": {
+          "20261118": 0.65,
+          "20261119": 0.7045454545454546,
+          "20261120": 0.9818181818181818
+        }
+      },
+      "mean_tokens": {
+        "mean": 15.230303030303029,
+        "sd": 0.6581707265095887,
+        "by_seed": {
+          "20261118": 15.831818181818182,
+          "20261119": 15.331818181818182,
+          "20261120": 14.527272727272727
+        }
+      }
+    },
+    "no_kl": {
+      "accuracy": {
+        "mean": 0.3212121212121212,
+        "sd": 0.0052486388108147815,
+        "by_seed": {
+          "20261118": 0.3181818181818182,
+          "20261119": 0.32727272727272727,
+          "20261120": 0.3181818181818182
+        }
+      },
+      "format_rate": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "by_seed": {
+          "20261118": 1.0,
+          "20261119": 1.0,
+          "20261120": 1.0
+        }
+      },
+      "numbers_rate": {
+        "mean": 0.8378787878787879,
+        "sd": 0.11062681415922314,
+        "by_seed": {
+          "20261118": 0.9363636363636364,
+          "20261119": 0.7181818181818181,
+          "20261120": 0.8590909090909091
+        }
+      },
+      "mean_tokens": {
+        "mean": 14.33030303030303,
+        "sd": 0.6740364002563389,
+        "by_seed": {
+          "20261118": 14.281818181818181,
+          "20261119": 15.027272727272727,
+          "20261120": 13.681818181818182
+        }
+      }
+    }
+  },
+  "dev_accuracy": {
+    "kl": {
+      "0": {
+        "mean": 0.3,
+        "sd": 0.0,
+        "by_seed": {
+          "20261118": 0.3,
+          "20261119": 0.3,
+          "20261120": 0.3
+        }
+      },
+      "50": {
+        "mean": 0.25333333333333335,
+        "sd": 0.023094010767585053,
+        "by_seed": {
+          "20261118": 0.24,
+          "20261119": 0.28,
+          "20261120": 0.24
+        }
+      },
+      "100": {
+        "mean": 0.25333333333333335,
+        "sd": 0.04618802153517007,
+        "by_seed": {
+          "20261118": 0.28,
+          "20261119": 0.28,
+          "20261120": 0.2
+        }
+      },
+      "150": {
+        "mean": 0.25333333333333335,
+        "sd": 0.011547005383792526,
+        "by_seed": {
+          "20261118": 0.26,
+          "20261119": 0.24,
+          "20261120": 0.26
+        }
+      },
+      "200": {
+        "mean": 0.2333333333333333,
+        "sd": 0.011547005383792509,
+        "by_seed": {
+          "20261118": 0.24,
+          "20261119": 0.22,
+          "20261120": 0.24
+        }
+      }
+    },
+    "no_kl": {
+      "0": {
+        "mean": 0.3,
+        "sd": 0.0,
+        "by_seed": {
+          "20261118": 0.3,
+          "20261119": 0.3,
+          "20261120": 0.3
+        }
+      },
+      "50": {
+        "mean": 0.13333333333333333,
+        "sd": 0.06110100926607787,
+        "by_seed": {
+          "20261118": 0.08,
+          "20261119": 0.12,
+          "20261120": 0.2
+        }
+      },
+      "100": {
+        "mean": 0.19333333333333333,
+        "sd": 0.030550504633038933,
+        "by_seed": {
+          "20261118": 0.16,
+          "20261119": 0.2,
+          "20261120": 0.22
+        }
+      },
+      "150": {
+        "mean": 0.2333333333333333,
+        "sd": 0.023094010767585035,
+        "by_seed": {
+          "20261118": 0.22,
+          "20261119": 0.26,
+          "20261120": 0.22
+        }
+      },
+      "200": {
+        "mean": 0.24666666666666667,
+        "sd": 0.011547005383792526,
+        "by_seed": {
+          "20261118": 0.24,
+          "20261119": 0.26,
+          "20261120": 0.24
+        }
+      }
+    }
+  },
+  "last_50_steps": {
+    "kl": {
+      "mean_reward": {
+        "mean": 0.22833333333333336,
+        "sd": 0.020207259421636904,
+        "by_seed": {
+          "20261118": 0.21,
+          "20261119": 0.225,
+          "20261120": 0.25
+        }
+      },
+      "mean_kl": {
+        "mean": 0.06613040480816841,
+        "sd": 0.033794927667972416,
+        "by_seed": {
+          "20261118": 0.04701015980494136,
+          "20261119": 0.1051508278742011,
+          "20261120": 0.04623022674536279
+        }
+      },
+      "mean_tokens": {
+        "mean": 14.971666666666666,
+        "sd": 0.4477815687735853,
+        "by_seed": {
+          "20261118": 15.41,
+          "20261119": 14.99,
+          "20261120": 14.515
+        }
+      }
+    },
+    "no_kl": {
+      "mean_reward": {
+        "mean": 0.23500000000000001,
+        "sd": 0.030413812651491092,
+        "by_seed": {
+          "20261118": 0.2,
+          "20261119": 0.25,
+          "20261120": 0.255
+        }
+      },
+      "mean_kl": {
+        "mean": 0.11441623677595703,
+        "sd": 0.03782591399187885,
+        "by_seed": {
+          "20261118": 0.10393761372592987,
+          "20261119": 0.15637677667847177,
+          "20261120": 0.08293431992346947
+        }
+      },
+      "mean_tokens": {
+        "mean": 14.531666666666666,
+        "sd": 0.5542863279328955,
+        "by_seed": {
+          "20261118": 15.135,
+          "20261119": 14.415,
+          "20261120": 14.045
+        }
+      }
+    }
+  },
+  "accuracy_differences": {
+    "kl": {
+      "mean": 0.05000000000000002,
+      "sd": 0.027272727272727282,
+      "by_seed": {
+        "20261118": 0.05000000000000002,
+        "20261119": 0.022727272727272735,
+        "20261120": 0.0772727272727273
+      }
+    },
+    "no_kl": {
+      "mean": 0.07575757575757576,
+      "sd": 0.0052486388108147815,
+      "by_seed": {
+        "20261118": 0.07272727272727272,
+        "20261119": 0.08181818181818182,
+        "20261120": 0.07272727272727272
+      }
+    }
+  },
+  "paired_condition_difference": {
+    "mean": 0.02575757575757574,
+    "sd": 0.03192622349349316,
+    "by_seed": {
+      "20261118": 0.022727272727272707,
+      "20261119": 0.05909090909090908,
+      "20261120": -0.004545454545454575
+    }
+  },
+  "error_reasons": {
+    "kl": {
+      "correct": {
+        "mean": 65.0,
+        "sd": 6.0,
+        "by_seed": {
+          "20261118": 65,
+          "20261119": 59,
+          "20261120": 71
+        }
+      },
+      "target": {
+        "mean": 106.33333333333333,
+        "sd": 34.6746785613556,
+        "by_seed": {
+          "20261118": 78,
+          "20261119": 96,
+          "20261120": 145
+        }
+      },
+      "numbers": {
+        "mean": 45.333333333333336,
+        "sd": 35.809682117177935,
+        "by_seed": {
+          "20261118": 67,
+          "20261119": 65,
+          "20261120": 4
+        }
+      },
+      "format": {
+        "mean": 3.3333333333333335,
+        "sd": 5.773502691896257,
+        "by_seed": {
+          "20261118": 10,
+          "20261119": 0,
+          "20261120": 0
+        }
+      }
+    },
+    "no_kl": {
+      "correct": {
+        "mean": 70.66666666666667,
+        "sd": 1.1547005383792517,
+        "by_seed": {
+          "20261118": 70,
+          "20261119": 72,
+          "20261120": 70
+        }
+      },
+      "target": {
+        "mean": 113.66666666666667,
+        "sd": 25.423086620891123,
+        "by_seed": {
+          "20261118": 136,
+          "20261119": 86,
+          "20261120": 119
+        }
+      },
+      "numbers": {
+        "mean": 35.666666666666664,
+        "sd": 24.33789911502908,
+        "by_seed": {
+          "20261118": 14,
+          "20261119": 62,
+          "20261120": 31
+        }
+      },
+      "format": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "by_seed": {
+          "20261118": 0,
+          "20261119": 0,
+          "20261120": 0
+        }
+      }
+    }
+  }
+}

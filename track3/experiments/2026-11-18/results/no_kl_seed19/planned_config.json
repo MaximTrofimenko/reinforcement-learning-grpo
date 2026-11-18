@@ -1,0 +1,6 @@
+{
+  "seed": 20261119,
+  "kl_beta": 0.0,
+  "steps": 200,
+  "frozen_commit": "87973e81cb5e33975e5048acbc58d9b19fbaf70f"
+}

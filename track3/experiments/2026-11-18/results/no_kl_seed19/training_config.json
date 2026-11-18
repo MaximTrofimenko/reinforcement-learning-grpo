@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen3-0.6B",
+  "steps": 200,
+  "group_size": 4,
+  "seed": 20261119,
+  "learning_rate": 5e-05,
+  "kl_beta": 0.0,
+  "max_new_tokens": 64,
+  "eval_every": 50,
+  "device": "mps"
+}
